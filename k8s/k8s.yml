@@ -53,4 +53,5 @@ spec:
     kind: Service
     name: webapp
     weight: 100
+  path: /WebApp
           
