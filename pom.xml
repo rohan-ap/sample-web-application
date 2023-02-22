@@ -42,7 +42,7 @@
             </activation>
            <properties>
                <sonar.host.url>https://sonarqube-1-cicd-demo.apps.cluster-l6w4r.l6w4r.sandbox1563.opentlc.com/</sonar.host.url>
-	             <sonar.login>47c144db0e43bac91b4f1af886c386128b569331</sonar.login>
+	             <sonar.login>eaecf6c49a22d974a28e905da8422eed4658a9db</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
