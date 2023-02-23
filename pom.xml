@@ -41,8 +41,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
            <properties>
-               <sonar.host.url>https://sonarqube-1-cicd-demo.apps.cluster-l6w4r.l6w4r.sandbox1563.opentlc.com/</sonar.host.url>
-	             <sonar.login>eaecf6c49a22d974a28e905da8422eed4658a9db</sonar.login>
+               <sonar.host.url>https://sonar-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_dbc3834e034ed3e8cb4109c07bf77076c3121631</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -54,12 +54,12 @@
 	
 	<distributionManagement>
     <snapshotRepository>
-      <id>nexusdeploymentrepo</id>
-      <url>http://nexus-cicd-demo.apps.cluster-l6w4r.l6w4r.sandbox1563.opentlc.com/repository/hosted-repo/</url>
+      <id>nexus-snap1</id>
+      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap1/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexusdeploymentrepo</id>
-      <url>http://nexus-cicd-demo.apps.cluster-l6w4r.l6w4r.sandbox1563.opentlc.com/repository/hosted-repo/</url>
+	  <id>nexus-snap1</id>
+      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap1/</url>
     </repository>
   
   </distributionManagement>
