@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-        - image: quay.io/praveenrachamreddy/ci-pipeline:1.0-SNAP
+        - image: quay.io/praveenrachamreddy/ci-pipeline
           imagePullPolicy: Always
           name: webapp
           ports:
