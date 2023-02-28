@@ -7,7 +7,7 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexus-snap1</id>
+      <id>nexus-snap</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
@@ -16,7 +16,7 @@
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-proxy1/</url>
+      <url>http://nexus-war-project.apps.cluster-b8gnt.b8gnt.sandbox2818.opentlc.com/repository/nexus-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -34,9 +34,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snap1</id>
+         <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap1/</url>
+         <url>http://nexus-war-project.apps.cluster-b8gnt.b8gnt.sandbox2818.opentlc.com/repository/nexus-snap/</url>
        </repository>      
      </repositories>
           
@@ -45,9 +45,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-snap1</id>
+         <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap1/</url>
+         <url>http://nexus-war-project.apps.cluster-b8gnt.b8gnt.sandbox2818.opentlc.com/repository/nexus-snap/</url>
        </repository>
      </repositories>
    </profile>
