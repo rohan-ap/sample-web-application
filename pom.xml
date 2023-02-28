@@ -54,12 +54,12 @@
 	
 	<distributionManagement>
     <snapshotRepository>
-      <id>nexus-snap1</id>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap1/</url>
+      <id>nexus-snap</id>
+      <url>http://nexus-war-project.apps.cluster-b8gnt.b8gnt.sandbox2818.opentlc.com/repository/nexus-snap/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexus-snap1</id>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap1/</url>
+	  <id>nexus-snap</id>
+      <url>http://nexus-war-project.apps.cluster-b8gnt.b8gnt.sandbox2818.opentlc.com/repository/nexus-snap/</url>
     </repository>
   
   </distributionManagement>
