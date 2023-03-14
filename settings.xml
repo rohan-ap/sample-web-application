@@ -16,7 +16,7 @@
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-war-project.apps.cluster-mcnvd.mcnvd.sandbox93.opentlc.com/repository/nexus-proxy/</url>
+      <url>http://nexus-war-project.apps.cluster-gcf7m.gcf7m.sandbox735.opentlc.com/repository/nexus-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -36,7 +36,7 @@
        <repository>
          <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-war-project.apps.cluster-mcnvd.mcnvd.sandbox93.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-war-project.apps.cluster-gcf7m.gcf7m.sandbox735.opentlc.com/repository/nexus-snap/</url>
        </repository>      
      </repositories>
           
@@ -47,7 +47,7 @@
        <repository>
          <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-war-project.apps.cluster-mcnvd.mcnvd.sandbox93.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-war-project.apps.cluster-gcf7m.gcf7m.sandbox735.opentlc.com/repository/nexus-snap/</url>
        </repository>
      </repositories>
    </profile>
