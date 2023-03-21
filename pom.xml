@@ -41,8 +41,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
            <properties>
-               <sonar.host.url>https://sonar-war-project.apps.cluster-gcf7m.gcf7m.sandbox735.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_89e752ae895f39b1288a3374fee2140d13288eb6</sonar.login>
+               <sonar.host.url>https://sonar-war-project.apps.cluster-ttckz.ttckz.sandbox1153.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_b74caf262e912a57e80bfd904522a8414be71958</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -55,11 +55,11 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-gcf7m.gcf7m.sandbox735.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-war-project.apps.cluster-ttckz.ttckz.sandbox1153.opentlc.com/repository/nexus-snap/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-gcf7m.gcf7m.sandbox735.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-war-project.apps.cluster-ttckz.ttckz.sandbox1153.opentlc.com/repository/nexus-snap/</url>
     </repository>
   
   </distributionManagement>
