@@ -55,7 +55,7 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-ttckz.ttckz.sandbox1153.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-war-project.apps.cluster-7bn7d.7bn7d.sandbox3159.opentlc.com/repository/nexus-snap/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexus-snap</id>
