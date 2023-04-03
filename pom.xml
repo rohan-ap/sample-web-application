@@ -41,8 +41,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
            <properties>
-               <sonar.host.url>https://sonar-war-project.apps.cluster-ttckz.ttckz.sandbox1153.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_b74caf262e912a57e80bfd904522a8414be71958</sonar.login>
+               <sonar.host.url>https://sonar-war-project.apps.cluster-7bn7d.7bn7d.sandbox3159.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_f99279cae54aeac637c769218c0faaa2c44b001a</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -59,7 +59,7 @@
     </snapshotRepository>
 	<repository>
 	  <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-ttckz.ttckz.sandbox1153.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-war-project.apps.cluster-7bn7d.7bn7d.sandbox3159.opentlc.com/repository/nexus-snap/</url>
     </repository>
   
   </distributionManagement>
