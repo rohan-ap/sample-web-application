@@ -4,7 +4,7 @@
   <groupId>lu.amazon.aws.demo</groupId>
   <artifactId>WebApp</artifactId>
   <packaging>war</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>dev</version>
   <name>WebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -54,12 +54,12 @@
 	
 	<distributionManagement>
     <snapshotRepository>
-      <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap/</url>
+      <id>nexus-snap1</id>
+      <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap1/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap/</url>
+	  <id>nexus-snap1</id>
+      <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap1/</url>
     </repository>
   
   </distributionManagement>
