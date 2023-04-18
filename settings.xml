@@ -7,7 +7,7 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexus-snap</id>
+      <id>nexus-snap1</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
@@ -34,9 +34,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snap</id>
+         <id>nexus-snap1</id>
          <name>your custom repo</name>
-         <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap1/</url>
        </repository>      
      </repositories>
           
@@ -45,9 +45,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-snap</id>
+         <id>nexus-snap1</id>
          <name>your custom repo</name>
-         <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-war-project.apps.cluster-xv9t9.xv9t9.sandbox1732.opentlc.com/repository/nexus-snap1/</url>
        </repository>
      </repositories>
    </profile>
