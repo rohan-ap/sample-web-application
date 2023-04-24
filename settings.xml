@@ -7,7 +7,7 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexus-snap1</id>
+      <id>nexus-snap</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
