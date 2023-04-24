@@ -31,7 +31,7 @@
       
     </profile>
         <profile>
-     <id>snapshot</id>
+     <id>mixed</id>
      <repositories>
        <repository>
          <id>nexus-snap</id>
