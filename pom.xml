@@ -33,7 +33,7 @@
             </plugins>
         </pluginManagement>
   </build>
-        <profiles>
+<!--         <profiles>
 
           <profile>
             <id>sonar</id>
@@ -49,10 +49,10 @@
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
             </properties>
           </profile>
-        </profiles>
+        </profiles> -->
 	
 	
-	<distributionManagement>
+<!-- 	<distributionManagement>
     <snapshotRepository>
       <id>nexus-snap</id>
       <url>http://nexus-war-project.apps.cluster-g9n2w.g9n2w.sandbox464.opentlc.com/repository/nexus-snap/</url>
@@ -62,7 +62,7 @@
       <url>http://nexus-war-project.apps.cluster-g9n2w.g9n2w.sandbox464.opentlc.com/repository/nexus-snap/</url>
     </repository>
   
-  </distributionManagement>
+  </distributionManagement> -->
  
 
    
