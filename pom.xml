@@ -4,7 +4,7 @@
   <groupId>lu.amazon.aws.demo</groupId>
   <artifactId>WebApp</artifactId>
   <packaging>war</packaging>
-  <version>dev2</version>
+  <version>1.1-SNAPSHOT</version>
   <name>WebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -33,7 +33,7 @@
             </plugins>
         </pluginManagement>
   </build>
-        <profiles>
+<!--         <profiles>
 
           <profile>
             <id>sonar</id>
@@ -49,17 +49,17 @@
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
             </properties>
           </profile>
-        </profiles>
+        </profiles> -->
 	
 	
 	<distributionManagement>
     <snapshotRepository>
-      <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-9jxfc.9jxfc.sandbox3091.opentlc.com/repository/nexus-snap/</url>
+      <id>rohan-nexus-snap</id>
+      <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/rohan-nexus-snap/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexus-snap</id>
-      <url>http://nexus-war-project.apps.cluster-9jxfc.9jxfc.sandbox3091.opentlc.com/repository/nexus-snap/</url>
+	  <id>rohan-nexus-snap</id>
+      <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/rohan-nexus-snap/</url>
     </repository>
   
   </distributionManagement>
