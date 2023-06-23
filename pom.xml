@@ -52,7 +52,7 @@
         </profiles> -->
 	
 	
-	<distributionManagement>
+<!-- 	<distributionManagement>
     <snapshotRepository>
       <id>rohan-nexus-snap</id>
       <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/rohan-nexus-snap/</url>
@@ -62,7 +62,7 @@
       <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/rohan-nexus-snap/</url>
     </repository>
   
-  </distributionManagement>
+  </distributionManagement> -->
  
 
    
